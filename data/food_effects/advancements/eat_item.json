@@ -1,0 +1,17 @@
+{
+	"description": "Invisible advancement triggered when a player consumes an item",
+
+	"criteria": {
+		"eat_item": {
+			"trigger": "minecraft:consume_item"
+		}
+	},
+	"requirements": [
+		[
+			"eat_item"
+		]
+	],
+	"rewards": {
+		"function": "food_effects:effects/eat_item_trigger"
+	}
+}
